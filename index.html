@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Games</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.js"></script> -->
+</head>
+
+<body>
+    <header>
+        <div class="menu-full">
+            <div class="hamburguer">
+                <img src="svgs/icon_hamburguer.svg" id="menuReal" onclick="abrirMenu()">
+                <span>LOGO</span>
+            </div>
+            <div class="menu-itens">
+                <div class="contato">
+                    <img src="svgs/paper-plane.svg" alt="">
+                    <span>Contato</span>
+                </div>
+                <div class="buscar">
+                    <img src="svgs/search-solid.svg" alt="">
+                    <span>Buscar</span>
+                </div>
+                <div class="sacola">
+                    <img src="svgs/shopping-bag-solid.svg" alt="">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <section class="banner">
+        <div class="menu-categories">
+            <span class="close" onclick="fecharMenu()">X</span>
+            <div class="lista1">
+                <ul>
+                    <li class="categoria">Luta</li>
+                    <li>Mortal Kombat</li>
+                    <li id="teste">Smash Bros</li>
+                    <li>Killer Stinct</li>
+                    <li>DBZ Kakarot</li>
+                </ul>
+            </div>
+            <div class="lista2">
+                <ul>
+                    <li class="categoria">Ação/Aventura</li>
+                    <li>Mortal Kombat</li>
+                    <li>Smash Bros</li>
+                    <li>Killer Stinct</li>
+                    <li>DBZ Kakarot</li>
+                </ul>
+            </div>
+            <div class="lista3">
+                <ul>
+                    <li class="categoria">Corrida</li>
+                    <li>Mortal Kombat</li>
+                    <li>Smash Bros</li>
+                    <li>Killer Stinct</li>
+                    <li>DBZ Kakarot</li>
+                </ul>
+            </div>
+        </div>
+        <div class="sombra"></div>
+        <img src="">
+        <div class="banner-textos">
+            <h2></h2>
+            <h1></h1>
+            <p></p>
+        </div>
+        <div class="banner-on-body">
+            <div class="banner1">
+                <div class="banner1-info">
+                    <span>The Legend of Zelda - Breath of th wild</span>
+                    <hr>
+                </div>
+            </div>
+            <div class="banner2">
+                <div class="banner2-info">
+                    <span>SEKIRO - Shadows die twice</span>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="modal">
+        <div class="close-modal" onclick="fecharModal()">X</div>
+        <p>Pedido realizado com sucesso! </p>
+        <img src="img/image_6-removebg-preview 1.png" alt="">
+    </div>
+    <main>
+        <div class="texto">
+            <h1>Produtos em destaque</h1>
+        </div>
+        <div class="produto multiple-items">
+            <div class="produto-box">
+                <div class="produto-img1">
+                    <img src="">
+                </div>
+                <div class="produto-info">
+                    <div class="produto-nome1"></div>
+                    <div class="produto-preco1"></div>
+                    <button class="btn" onclick="abrirModal()"><span>COMPRAR</span>
+                        <img src="img/image_6-removebg-preview 1.png" id="mario">
+                    </button>
+                </div>
+            </div>
+            <div class="produto-box">
+                <div class="produto-img2">
+                    <img src="">
+                </div>
+                <div class="produto-info">
+                    <div class="produto-nome2"></div>
+                    <div class="produto-preco2"></div>
+                    <button class="btn" onclick="abrirModal()">COMPRAR</button>
+                </div>
+            </div>
+
+            <div class="produto-box">
+                <div class="produto-img3">
+                    <img src="">
+                </div>
+                <div class="produto-info">
+                    <div class="produto-nome3"></div>
+                    <div class="produto-preco3"></div>
+                    <button class="btn" onclick="abrirModal()">COMPRAR</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="div1">
+            <img src="">
+        </div>
+        <div class="div2">
+            <span>Todos os direitos reservados
+            </span>
+        </div>
+    </footer>
+
+    <!-- <script src="slick.js"></script> -->
+    <script src="itens.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
